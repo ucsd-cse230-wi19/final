@@ -1,4 +1,25 @@
-## CSE 230 HW 
+
+# CSE 230 Wi19 Takehome Final 
+
+## Notes
+
+1. **Due Sunday 3/24, 23:59:59**
+
+2. Split into three problems `Problem{1,2,3}.hs`
+
+3. `Problem3.hs` is probably the easiest; you can try it by just doing
+
+       `make`
+
+   to build all the imported modules and then editing and rechecking with 
+
+       `cd src && stack exec -- liquid Problem3.hs` 
+
+   However, doing "automatic" verification is super slow with current LH: 
+   you may want to use the DAFNY verifier designed specifically to do 
+   `vc`-based checking using the supplied links, to first figure out 
+   the "right" invariants and then just "translate" those back to 
+   fill in the correct `inv`.
 
 ## Download
 
